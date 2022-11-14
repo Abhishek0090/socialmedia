@@ -9,11 +9,11 @@
                 <h1 class="h5 mb-3 fw-normal">Create new account</h1>
                 <div class="d-flex">
                     <div class="form-floating mt-1 col-6 ">
-                        <input type="text" class="form-control rounded-0" placeholder="username/email">
+                        <input type="text" class="form-control rounded-0" id="first_name" name="first_name" placeholder="first name">
                         <label for="floatingInput">first name</label>
                     </div>
                     <div class="form-floating mt-1 col-6">
-                        <input type="text" class="form-control rounded-0" placeholder="username/email">
+                        <input type="text" id="last_name" name="last_name" class="form-control rounded-0" placeholder="last name">
                         <label for="floatingInput">last name</label>
                     </div>
                 </div>
@@ -33,19 +33,19 @@
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                            value="option2">
+                        <input class="form-check-input" type="radio" name="gender" id="gender"
+                            value="other">
                         <label class="form-check-label" for="exampleRadios2">
                             Other
                         </label>
                     </div>
                 </div>
                 <div class="form-floating mt-1">
-                    <input type="email" class="form-control rounded-0"  name = "email" id="email" placeholder="username/email">
+                    <input type="email" class="form-control rounded-0"  name = "email" id="email" placeholder="email">
                     <label for="floatingInput">email</label>
                 </div>
                 <div class="form-floating mt-1">
-                    <input type="text" class="form-control rounded-0"  name="username" id="username"  placeholder="username/email">
+                    <input type="text" class="form-control rounded-0"  name="username" id="username"  placeholder="username">
                     <label for="floatingInput">username</label>
                 </div>
                 <div class="form-floating mt-1">
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="mt-3 d-flex justify-content-between align-items-center">
-                    <button class="btn btn-primary" type="submit">Sign Up</button>
+                    <button class="btn btn-primary"  type="submit">Sign Up</button>
                     <a href="#" class="text-decoration-none">Already have an account ?</a>
  
                 </div>
