@@ -13,4 +13,5 @@
         showPage('signup');
     }
     showPage('footer');
-    ?>
+    unset($_SESSION['error']) ;
+     
